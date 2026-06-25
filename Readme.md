@@ -1,12 +1,12 @@
 # Food Quality Detection Using Deep Learning and Clustering
 
-This project focuses on detecting fruit quality by combining image preprocessing, data augmentation, clustering (K-Means, Agglomerative, DBSCAN), and deep learning model training. The models were evaluated on clustered data to assess the impact of clustering techniques on classification performance.
+Final year undergraduate project focused on fruit quality detection using image preprocessing and data augmentation, along with clustering techniques such as K-Means, Agglomerative Clustering, and DBSCAN. Deep learning models were trained on clustered data to evaluate the impact of clustering on classification performance.
 
 ---
 ## About the Dataset
-The Food Freshness DataSet is a labeled image dataset designed to support machine learning research in the area of food quality classification. It contains images of fruits and vegetables categorized by their freshness level—from fresh to rotten. This dataset is a merged version of three publicly available datasets, refined through preprocessing and augmentation to ensure high-quality and consistent input for deep learning models.
+The Food Freshness Dataset is a labeled image collection designed for machine learning research in food quality classification. It includes images of fruits and vegetables categorized based on freshness levels, ranging from fresh to rotten. The dataset is a consolidated version of three publicly available datasets, enhanced through preprocessing and augmentation to ensure consistency and high-quality input for deep learning models.
 
-Each image has been standardized (128x128 resolution), normalized, and enhanced through techniques such as grayscale conversion, edge detection, and brightness adjustment. Labels are derived from visual inspection and clustering analysis (K-means, agglomerative), representing multiple stages of food quality. This dataset is ideal for developing computer vision models for food spoilage detection, food safety applications, and smart inventory management systems.
+All images are standardized to a resolution of 128×128 and normalized for model training. Additional preprocessing techniques such as grayscale conversion, edge detection, and brightness adjustment were applied to improve feature extraction. Labels were assigned based on visual inspection and clustering methods (K-Means and Agglomerative Clustering), capturing different stages of food quality. This dataset is suitable for developing computer vision models for spoilage detection, food safety applications, and intelligent inventory management systems.
 
 ![image](https://github.com/user-attachments/assets/bd42c6e1-fe22-460e-b0a2-b2c4ce8ab2f4)
 
@@ -175,19 +175,8 @@ You can refer to the images from the Testing Folder
 
 ---
 
-## 👨‍💻 Contributors
-1. [Dogga Pavan Sekhar](https://www.linkedin.com/in/dogga-pavan-sekhar-006a83252/)
-2. [Saragadam Kundana Chinni](https://www.linkedin.com/in/saragadam-kundana-chinni-b17321297/) 
-3. [Thalluru Lakshmi Prasanna](https://www.linkedin.com/in/thalluru-lakshmi-prasanna-322a76330/) 
-4. [Kesa Veera Venkata Yaswanth](https://www.linkedin.com/in/kesa-veera-venkata-yaswanth-6ba447281)
-
----
-
 ## 📌 Future Scope
-- Integration of real-time quality detection using camera feed
-- Extending to multi-fruit classification
-- Real-time deployment on mobile devices using TensorFlow Lite or ONNX
+* Real-time quality detection using live camera feed integration
+* Expansion to multi-class fruit classification for broader applicability
+* Deployment on mobile devices using TensorFlow Lite or ONNX for real-time inference applications
 
----
-
-Feel Free to contact `doggapavansekhar@gmail.com`.
